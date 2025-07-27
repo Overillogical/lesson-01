@@ -8,9 +8,9 @@ let sum = 0;
 let i = startingNumber;
 
 
-while (i !==20){
+while (i <=20){
     sum +=i;
     i++;
 }
-console.log(sum); //Вывод
+console.log(sum);
 
