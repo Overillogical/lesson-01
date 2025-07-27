@@ -9,9 +9,8 @@
 let factorial = 1;
 const targetNumber = 10;
 let i = 1;
-while(i!==targetNumber){
+while(i<=targetNumber) {
     factorial = factorial * i;
     i++;
 }
 console.log(factorial);
-
